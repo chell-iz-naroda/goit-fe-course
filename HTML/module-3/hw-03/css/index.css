@@ -1,3 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 .working_list{
     margin: 0 auto;
     width: 930px;
@@ -25,8 +31,48 @@ a:hover{
 }
 
 li{
-    margin-right: 90px;
+    margin-right: 100px;
     display: inline-block;
    }
-/* sadsd svdzfsdz 
-*/
+
+li:nth-child(4){
+    margin-right: 0;
+}
+
+.blog{
+    margin-right: 55px;
+    margin-bottom: 132px;
+    width: 420px;
+    display: inline-block;
+}
+
+.blog:nth-child(2n){
+    margin-right: 0px;
+}
+
+img{
+    margin-bottom: 32px;
+}
+
+.p_lorem{  
+color: #626262;
+font-family: "Playfair Display";
+font-size: 14px;
+line-height: 24px;
+}
+
+.p_photo {
+    font-family: "Ubuntu", sans-serif;
+    text-transform: uppercase;
+    font-weight: 300;
+    color: #b4ad9e;
+  }
+
+h2{
+color: #626262;
+font-family: "Playfair Display";
+font-size: 30px;
+margin-top: 16px;
+margin-bottom: 30px;
+font-weight: 400;
+}
