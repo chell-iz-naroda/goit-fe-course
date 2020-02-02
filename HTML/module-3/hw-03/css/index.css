@@ -1,78 +1,100 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.working_list{
-    margin: 0 auto;
-    width: 930px;
-    padding: 0 15px;
+.working_list {
+  margin: 0 auto;
+  width: 930px;
+  padding: 0 15px;
 }
 
-.header_menu{
-    padding-top: 77px;
-    padding-bottom: 104px;
-    text-align: center;
+.header_menu {
+  padding-top: 77px;
+  padding-bottom: 104px;
+  text-align: center;
 }
 
-a{
-    list-style: none;
-    text-decoration: none;
-    text-transform: uppercase;
-    color: #626262;
-    font-family: "Playfair Display";
-    font-size: 14px;
-    transition: 1s linear;
+a {
+  list-style: none;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #626262;
+  font-family: "Playfair Display";
+  font-size: 14px;
+  transition: 1s linear;
 }
 
-a:hover{
-    color: #03a9f4;
+a:hover {
+  color: #03a9f4;
 }
 
-li{
-    margin-right: 100px;
-    display: inline-block;
-   }
-
-li:nth-child(4){
-    margin-right: 0;
+li {
+  margin-right: 100px;
+  display: inline-block;
 }
 
-.blog{
-    margin-right: 55px;
-    margin-bottom: 132px;
-    width: 420px;
-    display: inline-block;
+li:nth-child(4) {
+  margin-right: 0;
 }
 
-.blog:nth-child(2n){
-    margin-right: 0px;
+.blog {
+  margin-right: 55px;
+  margin-bottom: 132px;
+  width: 420px;
+  display: inline-block;
 }
 
-img{
-    margin-bottom: 32px;
+.blog:nth-child(2n) {
+  margin-right: 0px;
 }
 
-.p_lorem{  
-color: #626262;
-font-family: "Playfair Display";
-font-size: 14px;
-line-height: 24px;
+.blog:nth-last-child(-n + 3) {
+    margin-bottom: 70px;
+}
+
+img {
+  margin-bottom: 32px;
+}
+
+.p_lorem {
+  color: #626262;
+  font-family: "Playfair Display";
+  font-size: 14px;
+  line-height: 24px;
 }
 
 .p_photo {
-    font-family: "Ubuntu", sans-serif;
-    text-transform: uppercase;
-    font-weight: 300;
-    color: #b4ad9e;
-  }
+  font-family: "Ubuntu", sans-serif;
+  text-transform: uppercase;
+  font-weight: 300;
+  color: #b4ad9e;
+}
 
-h2{
-color: #626262;
-font-family: "Playfair Display";
-font-size: 30px;
-margin-top: 16px;
-margin-bottom: 30px;
-font-weight: 400;
+h2 {
+  color: #626262;
+  font-family: "Playfair Display";
+  font-size: 30px;
+  margin-top: 16px;
+  margin-bottom: 30px;
+  font-weight: 400;
+}
+
+.button_sector {
+  padding-bottom: 70px;
+  text-align: center;
+}
+
+button {
+  padding: 16px 32px;
+  display: inline-block;
+  border: 1px solid #626262;
+  font-size: 20px;
+  color: #626262;
+  font-family: "Playfair Display";
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 400;
+  background: none;
 }
