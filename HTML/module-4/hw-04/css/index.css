@@ -142,8 +142,12 @@ img {
   background-color: rgb(26, 188, 156);
 }
 
-.name_productions a {
+.name_productions  {
   float: left;
+  height: 40px;
+}
+
+.name_productions a {
   padding-left: 14px;
   font-family: "Roboto", sans-serif;
   font-size: 18px;
@@ -227,6 +231,6 @@ img {
   background-color: rgb(78, 198, 171);
 }
 
-.news_card:nth-last-child(-n+3){
-    padding-bottom: 80px;
+.news_card:nth-last-child(-n + 3) {
+  padding-bottom: 80px;
 }
