@@ -1,10 +1,9 @@
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Roboto", sans-serif;
-  font-family: "Open Sans", sans-serif;
-  color: rgb(81, 81, 81);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+    color: #555252;
 }
 
 .content_box {
@@ -14,16 +13,19 @@
 }
 
 .clearfix::after {
-    content: "";
-    display: table;
-    clear: both;
-  }
+  content: "";
+  display: table;
+  clear: both;
+}
 
 a {
   text-transform: uppercase;
   text-decoration: none;
   background: none;
   cursor: pointer;
+}
+ul{
+    list-style: none;
 }
 
 .mart {
@@ -128,33 +130,99 @@ img {
 }
 
 .productions_price {
-    font-weight: 900;
-    line-height: 40px;
-    letter-spacing: -0.36px;
-    text-transform: uppercase;
-    background-color: rgb(50, 50, 50);
-    transition: all 0.3s;
+  font-weight: 900;
+  line-height: 40px;
+  letter-spacing: -0.36px;
+  text-transform: uppercase;
+  background-color: rgb(50, 50, 50);
+  transition: all 0.3s;
 }
 
 .productions:hover .productions_price {
+  background-color: rgb(26, 188, 156);
+}
+
+.name_productions a {
+  float: left;
+  padding-left: 14px;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  color: rgb(255, 255, 255);
+}
+
+.name_productions_price {
+  float: right;
+  text-align: center;
+  width: 54px;
+  height: 40px;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  color: rgb(255, 255, 255);
+  background-color: rgba(255, 255, 255, 0.44);
+}
+
+.h2_news {
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-size: 48px;
+    letter-spacing: -0.96px;
+    text-transform: uppercase;
+    padding-bottom: 80px;
+  }
+  
+  .h2_news:after {
+    content: "";
+    margin: 20px auto 0px;
+    display: block;
+    width: 164px;
+    height: 7px;
     background-color: rgb(26, 188, 156);
   }
 
-  .name_productions a {
-    float: left;
-    padding-left: 14px;
-    font-family: "Roboto", sans-serif;
-    font-size: 18px;
-    color: rgb(255, 255, 255);
-  }
+ .news_card {
+     width: 346px;
+     float: left;
+ }
 
-  .name_productions_price {
-    float: right;
-    text-align: center;
-    width: 54px;
-    height: 40px;
-    font-family: "Roboto", sans-serif;
+ .news_card:not(:nth-child(3n)) {
+    margin-right: 36px;
+}
+
+.title_news{
+    padding-top: 10px;
+    padding-bottom: 30px;
+    font-weight: 600;
     font-size: 18px;
-    color: rgb(255, 255, 255);
-    background-color: rgba(255, 255, 255, 0.44);
-  }
+    letter-spacing: -0.36px;
+    line-height: 26px;
+}
+
+.title_news:after {
+    content: "";
+    margin-top: 9px;
+    display: block;
+    width: 136px;
+    height: 3px;
+    background-color: rgb(78, 198, 171);
+}
+
+.news_card p{
+    font-size: 14px;
+    letter-spacing: -0.28px;
+    line-height: 24px;
+}
+
+.news_card a{
+    display: inline-block;
+    margin-top: 13px;
+    padding: 17px 42px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: -0.32px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    background-color: rgb(78, 198, 171);
+}
