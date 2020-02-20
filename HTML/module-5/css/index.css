@@ -113,10 +113,11 @@ a {
   position: relative;
   width: 104px;
   height: 104px;
-  border: none;
-  background-color: #1abc9c;
-  transition: all 0.4s;
+  background-color: #4ec6ab;
+  opacity: 0.65;
+  transition: all 0.5s;
   cursor: pointer;
+  border: none;
 }
 
 .btn-left {
@@ -126,6 +127,8 @@ a {
 .btn-left::after {
   content: "";
   background-image: url(../img/arrow-left.png);
+  opacity: 1;
+  letter-spacing: -2px;
 }
 
 .btn-right {
@@ -135,6 +138,8 @@ a {
 .btn-right::after {
   content: "";
   background-image: url(../img/arrow-right.png);
+  opacity: 1;
+  letter-spacing: -2px;
 }
 
 .btn-left::after,
@@ -150,6 +155,7 @@ a {
 .btn-left:hover,
 .btn-right:hover {
   background-color: #1abc9c;
+  opacity: 1;
 }
 
 .slider-title-block {
