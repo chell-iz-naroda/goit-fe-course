@@ -87,3 +87,125 @@ color: #f38181;
     background-color: #f38181;
 }
 /*HEADER END*/
+
+/*MAIN CONTENT*/
+.amazing-servise{
+    padding: 100px 0px 65px;
+}
+
+.amazing-servise-header{
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    color: #333333;
+    padding-bottom: 45px;
+}
+.about-header{
+    margin-bottom: 15px;
+    display: block;
+    color: #333333;
+    font-family: "Kaushan Script";
+    font-size: 24px;
+    font-weight: 400;
+    text-transform: initial;
+}
+
+.amazing-servise-header::after{
+    content: "";
+    margin: 35px auto 0;
+    width: 60px;
+    height: 3px;
+    display: block;
+    background-color: #f38181;
+}
+
+
+.amazing-servise-list{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.amazing-service-list-item {
+    position: relative;
+    width: 380px;
+    min-height: 115px;
+    padding: 20px 20px 20px 80px;
+    padding-bottom: 55px;
+}
+
+.amazing-service-list-item:nth-last-child(-n + 3) {
+    padding-bottom: 0;
+  }
+  
+
+.amazing-service-header{
+    padding-bottom: 10px;
+}
+
+.header-h3{
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #333333;
+}
+
+.amazing-service-header::before{
+    content: "";
+    position: absolute;
+    top: 20px;
+    left: 24px;
+    width: 32px;
+    height: 32px;
+    display: block;
+}
+
+.amazing-service-header.photography::before{
+    background: url(../img/clock.png) no-repeat;
+}
+
+.amazing-service-header.web::before{
+    background: url(../img/LINE_GRAPH.png) no-repeat;
+}
+
+.amazing-service-header.creativ::before{
+    background: url(../img/OK.png) no-repeat;
+}
+
+.amazing-service-header.seo::before{
+    background: url(../img/BOOK_2.png) no-repeat;
+}
+
+.amazing-service-header.verstka::before{
+    background: url(../img/HOME.png) no-repeat;
+}
+
+.amazing-service-header.digital::before{
+    background: url(../img/IMAGE.png) no-repeat;
+}
+.amazing-service-submit{
+color: #999999;
+font-family: Roboto, sans-serif;
+font-size: 15px;
+font-weight: 400;
+line-height: 24px;
+}
+
+
+.team{
+    padding-bottom: 80px;
+}
+
+.team-submit{
+    margin: 45px auto 90px;
+    max-width: 940px;
+    font-family: Roboto, sans-serif;
+    text-align: center;
+    font-size: 15px;
+    line-height: 24px;
+    color: #999999;
+}
+
+
+/* END MAIN CONTENT*/
