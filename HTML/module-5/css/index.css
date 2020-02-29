@@ -127,8 +127,6 @@ a {
 .btn-left::after {
   content: "";
   background-image: url(../img/arrow-left.png);
-  opacity: 1;
-  letter-spacing: -2px;
 }
 
 .btn-right {
@@ -138,8 +136,6 @@ a {
 .btn-right::after {
   content: "";
   background-image: url(../img/arrow-right.png);
-  opacity: 1;
-  letter-spacing: -2px;
 }
 
 .btn-left::after,
