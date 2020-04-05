@@ -1,0 +1,118 @@
+/* import Google fonts */
+@import url("./fonts.css");
+/* import Google fonts end */
+
+/*--------------- variables ---------------*/
+:root {
+  --font-f_first: "Montserrat", sans-serif;
+  --font-f_second: "Roboto Slab", sans-serif;
+  --font-f_third: "Tahu!";
+  --font-f_fourth: "Droid Serif", serif;
+  --color-white: #fff;
+  --color-ligth-grey-border: #ccc;
+  --color-ligth-grey: #bbb;
+  --color-normal-grey: #777;
+  --color-dark-grey: #222;
+  --color-accent: #fed136;
+  --color-green: rgb(52, 231, 52);
+  --color-red: rgb(239, 38, 38);
+}
+/*--------------- variables end ---------------*/
+
+/*-------------- reset settings --------------*/
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+/*-------------- reset settings end --------------*/
+
+/*-------------- something in general --------------*/
+body {
+  font-family: var(--font-f_first);
+  font-weight: 400;
+  color: var(--color-dark-grey);
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  display: block;
+}
+
+.container {
+  margin: 0 auto;
+  width: 970px;
+  padding: 0 15px;
+}
+
+.visually-hidden:not(:focus):not(:active),
+input[type="checkbox"].visually-hidden,
+input[type="radio"].visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+/*-------------- something in general end --------------*/
+
+/*----------------------- header -----------------------*/
+.page-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 35px;
+  padding-bottom: 114px;
+}
+
+.page-header__heading {
+  margin: 0;
+}
+
+.link-h1 {
+  font-family: var(--font-f_third);
+  font-size: 26px;
+  letter-spacing: 0.05em;
+  color: var(--color-accent);
+}
+
+.link-h1:focus {
+  outline-color: var(--color-accent);
+}
+
+.nav-top {
+  min-width: 480px;
+  max-width: 600px;
+}
+
+.nav-top__list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-link {
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: var(--color-dark-grey);
+  transition: color 0.2s linear;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: var(--color-accent);
+  outline-color: var(--color-accent);
+}
+/*----------------------- header end -----------------------*/
